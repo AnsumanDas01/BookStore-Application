@@ -1,0 +1,25 @@
+server: 
+  port: 1200
+
+spring: 
+  application:
+    name: "book-store"
+  profiles:
+    active: qa
+    
+  datasource:
+    url: "jdbc:mysql://localhost/sb_july"
+    username: "root"
+    password: "W@2915djkq#"
+
+application:
+  title: "book-store"
+  version: 1.0
+
+logging:
+  level:
+    org.jt.book_store.service: DEBUG
+
+upload:
+  file: 
+    dir: "images"
