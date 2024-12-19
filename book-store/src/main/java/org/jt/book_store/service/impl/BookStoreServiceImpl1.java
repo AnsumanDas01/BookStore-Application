@@ -6,7 +6,6 @@ import org.jt.book_store.dto.BookDetailsResponse;
 import org.jt.book_store.dto.HomePageResponse;
 import org.jt.book_store.model.BookStore;
 import org.jt.book_store.service.BookStoreService;
-import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Service;
